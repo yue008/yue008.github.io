@@ -1,7 +1,6 @@
 @font-face {
-  font-family: 'Blogfont'; /* project id 1842100 */
-  src: url("//at.alicdn.com/t/font_1842100_he8ga4uxvyo.eot");
-  src: url("//at.alicdn.com/t/font_1842100_he8ga4uxvyo.eot?#iefix") format('embedded-opentype'), url("//at.alicdn.com/t/font_1842100_he8ga4uxvyo.woff2") format('woff2'), url("//at.alicdn.com/t/font_1842100_he8ga4uxvyo.woff") format('woff'), url("//at.alicdn.com/t/font_1842100_he8ga4uxvyo.ttf") format('truetype'), url("//at.alicdn.com/t/font_1842100_he8ga4uxvyo.svg#Blogfont") format('svg');
+  font-family: 'Blogfont'; /* Project id 2635589 */
+  src: url("//at.alicdn.com/t/font_2635589_osk4fwohuxb.woff2?t=1624725477279") format('woff2'), url("//at.alicdn.com/t/font_2635589_osk4fwohuxb.woff?t=1624725477279") format('woff'), url("//at.alicdn.com/t/font_2635589_osk4fwohuxb.ttf?t=1624725477279") format('truetype');
 }
 .blogfont {
   font-family: "Blogfont" !important;
