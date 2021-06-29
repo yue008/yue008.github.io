@@ -66,7 +66,7 @@
 </div>
 
 
-    <div id="/2021/06/27/Hexo%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/" class="leancloud_visitors post__stat" data-flag-title="Hexo使用总结">
+    <div id="/2021/06/27/Hexo%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" class="leancloud_visitors post__stat" data-flag-title="Hexo使用总结">
   <i class="blogfont">&#xe672;</i>
   <span class="leancloud-visitors-count">loading...</span>
 </div>
@@ -110,21 +110,21 @@
 </tr>
 </tbody></table>
 <h1 id="本地预览无法加载"><a href="#本地预览无法加载" class="headerlink" title="本地预览无法加载"></a>本地预览无法加载</h1><h3 id="触发过程"><a href="#触发过程" class="headerlink" title="触发过程"></a>触发过程</h3><p>使用git或者shell命令窗口运行</p>
-<p><img src="D:\skyBlog\source\titleimage\hexo使用指南img\hexo-s运行结果.png"></p>
+<p><img src="/2021/06/27/Hexo%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/hexo-s%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png"></p>
 <p>然后在浏览器预览localhost:4000时，出现无法访问。</p>
-<p><img src="D:\skyBlog\source\titleimage\hexo使用指南img\hexo使用总结localhost无法加载.png"></p>
+<p><img src="/2021/06/27/Hexo%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/hexo%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93localhost%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD.png"></p>
 <h3 id="原因分析"><a href="#原因分析" class="headerlink" title="原因分析"></a>原因分析</h3><p>端口4000被占用，可以通过相应脚本查询4000端口是否被占用。</p>
 <h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><p>如果出现占用，建议更换其他端口，举个栗子5555或8080.更换端口脚本：</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server -p 8080  # 8080代表需要更换的端口号</span><br></pre></td></tr></table></figure>
 
 <h1 id="上传github出现报错"><a href="#上传github出现报错" class="headerlink" title="上传github出现报错"></a>上传github出现报错</h1><h3 id="触发过程-1"><a href="#触发过程-1" class="headerlink" title="触发过程"></a>触发过程</h3><p>本地生产文件后，使用<strong>hexo d</strong>将本地文件上传到github时，会出现以下报错：</p>
-<p><img src="D:\skyBlog\source\titleimage\hexo使用指南img\hexo-d无法部署文件到github.png"></p>
+<p><img src="/2021/06/27/Hexo%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/hexo-d%E6%97%A0%E6%B3%95%E9%83%A8%E7%BD%B2%E6%96%87%E4%BB%B6%E5%88%B0github.png"></p>
 <h3 id="原因分析-1"><a href="#原因分析-1" class="headerlink" title="原因分析"></a>原因分析</h3><p>目前由于国内登陆github时，会因为网络原因，出现连接超时现象。</p>
 <h3 id="解决方案-1"><a href="#解决方案-1" class="headerlink" title="解决方案"></a>解决方案</h3><p>此无解，只能重复运行此指令。</p>
 <h1 id="预览初始画面，画面乱码或结构紊乱"><a href="#预览初始画面，画面乱码或结构紊乱" class="headerlink" title="预览初始画面，画面乱码或结构紊乱"></a>预览初始画面，画面乱码或结构紊乱</h1><h3 id="触发过程-2"><a href="#触发过程-2" class="headerlink" title="触发过程"></a>触发过程</h3><p>当进行本地预览时或者部署到github后预览画面，会出现以下现象</p>
-<h3 id="原因分析-2"><a href="#原因分析-2" class="headerlink" title="原因分析"></a><img src="D:\skyBlog\source\titleimage\hexo使用指南img\index画面乱码.png" style="zoom:150%;" />原因分析</h3><p>主要是本地配置路径异常。</p>
+<h3 id="原因分析-2"><a href="#原因分析-2" class="headerlink" title="原因分析"></a><img src="/2021/06/27/Hexo%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/index%E7%94%BB%E9%9D%A2%E4%B9%B1%E7%A0%81.png" style="zoom:150%;">原因分析</h3><p>主要是本地配置路径异常。</p>
 <h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>修改XXblog/-config.yml文件中root路径和本地路径一致。</p>
-<p><img src="D:\skyBlog\source\titleimage\hexo使用指南img\root路径.png"></p>
+<p><img src="/2021/06/27/Hexo%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/root%E8%B7%AF%E5%BE%84.png"></p>
 <h1 id="画面加载时出现空白页面"><a href="#画面加载时出现空白页面" class="headerlink" title="画面加载时出现空白页面"></a>画面加载时出现空白页面</h1><h2 id="触发过程-3"><a href="#触发过程-3" class="headerlink" title="触发过程"></a>触发过程</h2><p>之前在更换主题后，经过重新生成文件、部署，在线预览时，出现画面加载不出来，为空白画面。</p>
 <h2 id="原因分析-3"><a href="#原因分析-3" class="headerlink" title="原因分析"></a>原因分析</h2><p>检查发现为系统有layout index html文件丢失。即系统在生产文件时，由于更换主题，但主题名称和主config.yml中的主题名称不一致，导致生成的index html文件为空白文件。</p>
 <h2 id="解决办法-1"><a href="#解决办法-1" class="headerlink" title="解决办法"></a>解决办法</h2><p>修改主config.yml中主题名称。和需要更换的主题名称保持一致。</p>
